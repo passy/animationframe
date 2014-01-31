@@ -7,9 +7,21 @@ A UMD module for a {request,cancel}AnimationFrame polyfill based on
 
 `bower install --save animationframe`
 
+**As AMD module**
+
 ```
 require('animationframe').requestAnimationFrame(function () {
     /* animate stuff */
+});
+```
+
+**As global**
+
+```
+<script src="animationframe.js"></script>
+
+window.requestAnimationFrame(function () {
+    /* sparkly stuff */
 });
 ```
 
