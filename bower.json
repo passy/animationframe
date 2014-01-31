@@ -1,0 +1,24 @@
+{
+  "name": "animationframe",
+  "main": "animationframe.js",
+  "version": "0.1.0",
+  "authors": [
+    "Pascal Hartig <passy@twitter.com>"
+  ],
+  "description": "Polyfill for requestAnimationFrame and cancelAnimationFrame",
+  "keywords": [
+    "polyfill",
+    "requestanimationframe",
+    "animationframe",
+    "cancelanimationframe"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "*.markdown"
+  ]
+}
